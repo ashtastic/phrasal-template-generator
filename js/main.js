@@ -12,7 +12,7 @@ var story = prompt('Which story would you like?\n[a] Snacking\n[b] Escaping\n[c]
 
 var abcStory = ['a', 'b', 'c'];
 
-switch (abcStory) {
+switch (story) {
 
   case 'a' :
     document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + ' ' + verbed + ' for hours.');
